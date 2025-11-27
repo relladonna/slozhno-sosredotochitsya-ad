@@ -3,9 +3,11 @@
     --text-color: #F1B2CE;
     --sub-text-color: #000028;
     --accent-color: #ff0070;
-    --font: 'IBM Plex mono';
+    --font: 'IBM Plex mono', monospace;
     --font-size: 18px;
     --btn-color:#ff0070;
+    --border-color: rgb(255, 0, 112, 0.4);
     --backgroung-image: url(../images/cover-image-dark.png);
     --page-background-color: #000028;
+    --rec-decor-visibility: visible;
 }

@@ -1,10 +1,4 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-:root.theme-light {
+.theme-light .page {
     --title-color: #FFC2E6;
     --text-color: #353430;
     --sub-text-color: #353430;
@@ -12,22 +6,19 @@
     --btn-color:#353430;
     --backgroung-image: url(../images/cover-image-light.png);
     --page-background-color: #FFF1F7;
-}
-
-.theme_light .decorative__element {
-    display: none;
-}
-
-.theme_light .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.40);
+    --rec-decor-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
-    .decorative__element {
-        display: none;
-    }
-
-    .header__theme-menu-button:hover {
-        border: 1px solid rgba(50, 49, 45, 0.40);
+    :root .theme-light {
+        --title-color: #FFC2E6;
+        --text-color: #353430;
+        --sub-text-color: #353430;
+        --accent-color: #ff8dcb;
+        --btn-color:#353430;
+        --border-color: rgb(53, 52, 48, 0.4);
+        --backgroung-image: url(../images/cover-image-light.png);
+        --page-background-color: #FFF1F7;
+        --rec-decor-visibility: hidden;
     }
 }
