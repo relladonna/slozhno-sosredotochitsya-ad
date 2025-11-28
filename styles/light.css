@@ -7,6 +7,7 @@
     --backgroung-image: url(../images/cover-image-light.png);
     --page-background-color: #FFF1F7;
     --rec-decor-visibility: hidden;
+    --border-color: rgb(53, 52, 48, 0.4);
 }
 
 @media (prefers-color-scheme: light) {

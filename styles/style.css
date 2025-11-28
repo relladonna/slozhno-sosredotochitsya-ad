@@ -3,6 +3,7 @@
     font-family: var(--font);
     font-weight: normal;
     line-height: 23.4px;
+    letter-spacing: var(--letter-spacing);
     background-color: var(--page-background-color);
     background-attachment: fixed;
 }
