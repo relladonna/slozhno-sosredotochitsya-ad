@@ -1,7 +1,7 @@
 .page {
     color: var(--text-color);
     font-family: var(--font);
-    font-weight: 400;
+    font-weight: normal;
     line-height: 23.4px;
     background-color: var(--page-background-color);
     background-attachment: fixed;
@@ -102,7 +102,7 @@
 
 .title {
     color: var(--btn-color);
-    font-weight: 700;
+    font-weight: bold;
     font-size: inherit;
     line-height: inherit;
 }
@@ -197,13 +197,13 @@
 }
 
 .header__text {
+    font-weight: bold;
     margin-block: 55px;
     color: var(--sub-text-color);
     font-weight: 700;
     font-size: inherit;
     line-height: inherit;
     background: var(--accent-color);
-    max-inline-size: 364px;
     max-block-size: 117px;
     justify-self: end;
 }
