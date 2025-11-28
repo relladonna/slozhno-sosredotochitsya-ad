@@ -1,7 +1,7 @@
 :root {
     --font: 'IBM Plex mono', monospace;
-    --font-size: 18,5px;
-    --letter-spacing: 0.09em;
+    --font-size: 20px;
+    --letter-spacing: 0.075em;
     --border-color: rgb(255, 0, 112, 0.4);
     --border-color: rgb(53, 52, 48, 0.4);
     --title-color: #FFC2E6;
@@ -12,5 +12,4 @@
     --backgroung-image: url(../images/cover-image-light.png);
     --page-background-color: #FFF1F7;
     --rec-decor-visibility: hidden;
-}
 }
