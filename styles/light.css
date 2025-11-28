@@ -11,19 +11,6 @@
     --rec-decor-visibility: hidden;
 }
 
-.theme-light .header__rec-element {
-    visibility: hidden;
-}
-
-.theme-light .header__theme-menu-button_active {
-    border: 1px solid var(--btn-color);
-    pointer-events: none;
-}
-
-.theme-light .footer__title {
-    text-shadow: 2px 2px 0 var(--accent-color);
-}
-
 @media (prefers-color-scheme: light) {
     :root {
         --title-color: #FFC2E6;
