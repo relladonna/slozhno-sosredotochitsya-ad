@@ -1,5 +1,5 @@
 
-:root .theme-dark {
+:root.theme-dark {
     --title-color: #DB00FF;
     --text-color: #F1B2CE;
     --sub-text-color: #000028;
